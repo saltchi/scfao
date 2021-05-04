@@ -1,0 +1,233 @@
+@charset "utf-8";
+h1{
+	color: #e94d40;
+	text-align: center;
+	font-size: 40px;
+	
+}
+h2 {
+	color: #e94d40;
+	font-size: 20px;
+	
+}
+
+/* Start Index CSS */
+
+.mainnavdiv {
+	font-size: 16px;
+	font-family: arial;
+	color: #0c243c;
+	text-align: center;
+		
+}
+
+.mainnavbox {
+	display: flex;
+	justify-content: flex-end;
+		
+}
+
+.h2maindiv {
+	color: #0c243c;
+	font-size: 18px;
+	text-align: right;
+	
+}
+
+.slideshowimage img {
+	width: 98%;
+	padding: 20px;
+}
+
+body {
+	padding:10px;
+}
+
+.mainfooterbox {
+	background:linear-gradient(to top right, #0c243c 0%, #e94d40 100%);
+	color: white;
+	display: flex;                                                                                                                                               
+}
+
+.linebreakdiv {
+	background: #9D9D9D;
+	
+}
+
+.mainhomesection img {
+	justify-content: flex-end;
+	z-index: -1;
+	
+}
+
+.mainhomesection {
+	text-align: center;
+	color: #B5B5B5;
+	font-size: 21px;
+	
+}
+
+/* End Index CSS */
+
+
+/* Start Sale Css */
+
+.mainsalesection1, .mainsalesection2 {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	
+}
+
+.mainsalesection1 img, .mainsalesection2 img {
+	padding: 30px;
+	
+}
+
+
+
+a.lightbox img {
+height: 150px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+margin: 94px 20px 20px 20px;
+}
+
+
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+transition: .5s ease-in-out;
+}
+
+
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+transition: .5s ease-in-out;
+}
+
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+transform:rotate(45deg);
+}
+
+
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+transform:rotate(-45deg);
+}
+
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+
+/* Sale Css End */
+
+/* Start About CSS */
+
+.mainaboutbox {
+	display:flex;
+
+}
+/* End About CSS*/
+
+/*Start Contact CSS*/
+.container {
+  border-radius: 5px;
+  background-color: #0c243c;
+  padding: 30px;
+	color:white;
+	width: 40%;
+	align-items: center;	
+}
+
+.container2 {
+  border-radius: 5px;
+	width: 40%;
+	align-items: center;
+}
+
+.maincontactsection {
+	display: flex;
+	
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #e94d40;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
